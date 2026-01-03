@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/images.png">
     <title>My Travel Blog</title>
-    <link rel="stylesheet" href="PH02 CSS/ph02.css">
+    <link rel="stylesheet" href="stylee.css">
     <style>
 
     </style>
@@ -34,17 +34,127 @@
             <p>Here is an <strong>important</strong> image  with <em>emphasized</em> text:</p>
             <img src="images/embrace-amidst-petals-anime-style-ou7i8kdo2yvfrrqt.webp" alt="sample" class="styled-img">
             <br>
-            <a href="https://google.com">Visit Google(Anchor Tag)</a>
+            <a href="https://google.com" target="_blank" rel="noopener noreferrer">Visit Google(Anchor Tag)</a>
             <h3>Multimedia</h3>
             <video src="video" autoplay controls>Video</video>
             <br>
-            <audio src="audio">audio</audio>
+            <audio src="audio" autoplay controls>audio</audio>
+        </section>
+
+        <hr>
+
+        <div>
+            <div>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>First <sup>Item</sup></li>
+                <li>Second <sub>Item</sub></li>
+                <li>Third <sup>Item</sup></li>
+                <li>Fourth <sub>Item</sub></li>
+                <li>Fifth <sup>Item</sup></li>
+            </ol>
+        </div>
+            <div>
+                <h3>Unordered List</h3>
+                <ul>
+                    <li>Sixth <sub>Item</sub></li>
+                    <li>Seventh <sup>Item</sup></li>
+                    <li>Eighth <sub>Item</sub></li>
+                    <li>Nine <sup>Item</sup></li>
+                    <li>Ten <sub>Item</sub></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Description List</h3>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>Hyper Text Markup Language</dd>
+                </dl>
+                <dl>
+                    <dt>CSS</dt>
+                    <dd>Creative Styles Sheet</dd>
+                </dl>
+                <dl>
+                    <dt>JavaScript</dt>
+                    <dd>Insha allah ami parboi</dd>
+                </dl>
+            </div>
+        </div>
+
+        <hr>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jhon Doe</td>
+                    <td>jhon@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jhon Doe</td>
+                    <td>jhon@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jhon doe</td>
+                    <td>jhon@example.com</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>some</td>
+                    <td>$180</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <hr>
+
+        <section>
+            <h2>Registration Form</h2> <br>
+            <br>
+            <form action="">
+                <label for="name">Username:</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Username"> <br>
+                <br>
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="fullname" id="fullname" placeholder="Enter Your Full Name"> <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email"> <br>
+                <br>
+                <label for="password">Password:</label>
+                <input typ="password" name="password" id="password" placeholder="Enter Your Password"> <br>
+                <br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label> <br>
+                <br>
+                <label for="role">Role</label>
+                <select name="select" id="select">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="other">other</option>
+                </select> <br>
+                <br>
+                <button type="submit">Login</button>
+                <span class="hidden-msg">This message is hidden!</span>
+            </form>
+
+            <hr>
 
         </section>
-        
-
     </div>
 
+    <footer><p>Copyright &copy; 2024</p></footer>
 
 </body>
 </html>
