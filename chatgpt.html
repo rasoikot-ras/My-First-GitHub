@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Comprehensive Webpage</title>
+    <link rel="stylesheet" href="../My-002-P/PH02 CSS/chatgpt.css">
+    <style>
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .internal-p {
+            color: darkblue;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>Welcome to My Project</h1>
+        <p>This page demonstrates HTML5 and CSS3 fundamentals.</p>
+    </header>
+
+    <div class="container">
+        <p style="color: red; font-weight: bold;">This paragraph uses Inline CSS.</p>
+        <p class="internal-p">This paragraph uses Internal CSS (see head tag).</p>
+        <p class="external-p">This paragraph uses External CSS (see style.css).</p>
+
+        <hr>
+
+        <section id="media-section">
+            <p>Here is an <strong>important</strong> image with <em>emphasized</em> text:</p>
+            <img src="https://via.placeholder.com/150" alt="Sample Image" class="styled-img">
+            <br>
+            <a href="https://google.com">Visit Google (Anchor Tag)</a>
+            
+            <h3>Multimedia</h3>
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <br>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <hr>
+
+        <div class="lists-grid">
+            <div class="list-item">
+                <h3>Ordered List</h3>
+                <ol>
+                    <li>First Item</li>
+                    <li>Second Item <sub>Subscript text</sub></li>
+                </ol>
+            </div>
+            <div class="list-item">
+                <h3>Unordered List</h3>
+                <ul>
+                    <li>Bullet A</li>
+                    <li>Bullet B <sup>Superscript text</sup></li>
+                </ul>
+            </div>
+            <div class="list-item">
+                <h3>Description List</h3>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>HyperText Markup Language</dd>
+                </dl>
+            </div>
+        </div>
+
+        <hr>
+
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>john@example.com</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <section class="form-section">
+            <h2>Registration Form</h2>
+            <form>
+                <label for="user">Username:</label>
+                <input type="text" id="user" name="user" placeholder="Enter username"><br><br>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass"><br><br>
+
+                <label>Role:</label>
+                <select>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select><br><br>
+
+                <button type="submit">Submit Now</button>
+                <span class="hidden-msg">This message is hidden!</span>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>

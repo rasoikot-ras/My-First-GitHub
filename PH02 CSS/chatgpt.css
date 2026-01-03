@@ -1,0 +1,85 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Tag Selector */
+body {
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Class Selector */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+}
+
+/* External Paragraph Style */
+.external-p {
+    color: green;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* ID Selector */
+#main-header {
+    border-bottom: 5px solid #007bff;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Background & Images */
+#media-section {
+    background-image: url('pattern.png'); /* Add your image path */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 15px;
+}
+
+/* Display Properties */
+.list-item {
+    display: inline-block; /* Blocks sit side-by-side */
+    width: 30%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.hidden-msg {
+    display: none; /* Uses 'hidden' logic requested */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Button Styling */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
