@@ -17,26 +17,26 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(155, 15, 15);
     padding: 20px;
 }
 
 /* External Paragraph Style */
 .external-p {
-    color: green;
-    font-size: 18px;
+    color: rgb(30, 128, 0);
+    font-size: 25px;
     text-align: justify;
 }
 
 /* ID Selector */
 #main-header {
-    border-bottom: 5px solid #007bff;
+    border-bottom: 20px solid #007bff;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
 }
 
 /* Background & Images */
 #media-section {
-    background-image: url('pattern.png'); /* Add your image path */
+    background-image: url('../images/gojo-sataru-9d4ot0ghfs4ee9g0.webp'); /* Add your image path */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
